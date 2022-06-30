@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import GhPages from './components/Gh-pages'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        esty lev!!!!!!!
+        <p>Esty lev!!</p>
+        <GhPages></GhPages>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
